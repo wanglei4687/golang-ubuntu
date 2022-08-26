@@ -7,7 +7,7 @@ build multiple platform docker image, and push it to docker hub.
 
 ```shell 
 docker buildx create --name mybuilder
-docker buildx use mybuilde
+docker buildx use mybuilder
 docker buildx build --platform linux/amd64,linux/arm64 -t wanglei4687/golang:1.19-ubuntu2204 --push .
 ```
 
