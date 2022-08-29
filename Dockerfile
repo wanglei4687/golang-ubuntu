@@ -7,7 +7,8 @@ RUN set -eux; \
 		g++ \
                 gcc \
                 wget \
-		libc6-dev \
+                libc6-dev \
+                ca-certificates \
 		make \
 		pkg-config \
 	; \
